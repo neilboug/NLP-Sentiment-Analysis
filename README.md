@@ -17,15 +17,14 @@ This project implements a **binary sentiment analysis model** using the `distilb
 
 ## 📂 Project Structure
 
-|── src.py # Main script: loads, cleans, trains, evaluates
-
-|── dataset/
-
-| |── train_150k.txt # Training dataset (from Kaggle)
-
-| |── test_62k.txt # Test dataset (from Kaggle)
-
-|── plots/ # Output directory for evaluation plots
+```text
+.
+├── src.py                  # Main script: loads, cleans, trains, evaluates
+├── dataset/
+│   ├── train_150k.txt      # Training dataset (from Hugging Face)
+│   └── test_62k.txt        # Test dataset (from Hugging Face)
+├── plots/                  # Output directory for evaluation plots
+```
 
 ---
 
@@ -36,7 +35,7 @@ For convenience, the dataset is already included in this repository.
 Original source: [**Twitter Sentiment Analysis Dataset on Hugging Face**](https://huggingface.co/datasets/carblacac/twitter-sentiment-analysis)
 
 Each file contains rows in this format:
-```txt
+```text
 <label>\t<tweet text>
 ```
 
