@@ -1,6 +1,6 @@
 # 🐦 Twitter Sentiment Analysis with DistilBERT
 
-This project implements a **binary sentiment analysis model** using the `distilbert-base-uncased` transformer on a large [**dataset**](https://huggingface.co/datasets/carblacac/twitter-sentiment-analysis) of tweets. The model classifies tweets as either **positive** or **negative**, with visual evaluation through confusion matrices, ROC curves, and precision-recall plots.
+This project implements a **binary sentiment analysis model** using the `distilbert-base-uncased` transformer on a large [**dataset**](https://huggingface.co/datasets/carblacac/twitter-sentiment-analysis) of tweets. The model classifies tweets as either **positive** or **negative**, with visual evaluation through confusion matrices, ROC curves and precision-recall plots.
 
 ---
 
@@ -82,9 +82,6 @@ After training, a plot like this will be generated and saved to plots/:
 - Precision-Recall Curve
 
 Here’s a sample output plot:
-![Training Plot](plots/DistilBERT_Twittos_Sentiment_Analysis_Evaluation_Plots.png)
-
-
-
-
-
+<p align="center">
+  <img src="plots/DistilBERT_Twittos_Sentiment_Analysis_Evaluation_Plots.png" width="800" alt="Training Plot">
+</p>
